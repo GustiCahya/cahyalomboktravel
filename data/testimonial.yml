@@ -1,0 +1,48 @@
+enable: true
+title: Testimoni
+paragraph: >
+  Kami berusaha untuk terus memberikan pelayanan yang terbaik, mendengarkan testimoni anda adalah kewajiban kami untuk terus meningkatkan kualitas kami...
+
+number:
+  enable : true
+numbers:
+  - icon: ion-ios-chatboxes-outline
+    counter: 158
+    text: Pelanggan yang suka
+  - icon: ion-ios-star-outline
+    counter: 53
+    text: Pelanggan yang puas
+  - icon: ion-ios-analytics-outline
+    counter: 37
+    text: Jaringan
+  - icon: ion-ios-timer-outline
+    counter: 93
+    text: Pelayanan
+
+peoples:
+  enable: true
+people:
+  - text: >
+      Wih.. pulau Lombok keren banget. Banyak pantai-pantai keren yang tidak pernah aku temukan di tempat lain. Seperti pantai Tanjung Ann.
+    quoteImg: img/cotation.png
+    # image: img/item-img1.jpg
+    name: Hefni
+    # role: CEO-Themefisher
+  - text: >
+      Cahya lombok travel memudahkan saya untuk travelling di pulau Lombok yang indah ini.
+    quoteImg: img/cotation.png
+    # image: img/item-img1.jpg
+    name: Martin
+    # role: CEO-Themefisher
+  - text: >
+      Terimakasih Cahya Lombok Travel saya sangat menikmati perjalanan saya di Lombok.
+    quoteImg: img/cotation.png
+    # image: img/item-img1.jpg
+    name: Agung
+    # role: CEO-Themefisher
+  - text: >
+      Recommended banget buat yang mau jalan-jalan di Lombok.
+    quoteImg: img/cotation.png
+    # image: img/item-img1.jpg
+    name: Dessy
+    # role: CEO-Themefisher

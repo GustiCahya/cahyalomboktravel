@@ -1,0 +1,104 @@
+title = "CahyaLombokTravel | Perjalanan wisata di pulau Lombok"
+baseURL = "https://examplesite.com"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+# The site's parameters
+[params]
+  home = "Home"
+  
+  [menu]
+
+    [[menu.header]]
+      weight = 2
+      name = "Penawaran"
+      url = "penawaran"
+    # [[menu.header]]
+    #   weight = 3
+    #   name = "Blog"
+    #   url = "blog"
+    [[menu.header]]
+      weight = 4
+      name = "Service"
+      url = "service"
+    [[menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "contact"
+
+    # [[menu.footer]]
+    #   weight = 1
+    #   name = "About us"
+    #   url = "#"
+    # [[menu.footer]]
+    #   weight = 2
+    #   name = "Contact us"
+    #   url = "contact"
+    # [[menu.footer]]
+    #   weight = 3
+    #   name = "How it works"
+    #   url = "work"
+    # [[menu.footer]]
+    #   weight = 4
+    #   name = "Blog"
+    #   url = "blog"
+    # [[menu.footer]]
+    #   weight = 5
+    #   name = "Terms"
+    #   url = "#"
+
+  [params.slider]
+    enable = true
+    title = "Cahya Lombok Travel"
+    subtitle = "Berwisata di pulau Lombok dan nikmati pengalaman baru.<br/>Menikmati indahnya pulau Lombok dan abadikan momennya.<br>"
+    bgImage = "img/slider-bg.jpg"
+    btnText = "Lihat penawaran kami"
+    url = "/penawaran"
+
+  [params.wrapper]
+    enable = true
+    image = "img/wrapper-img.png"
+    title = "Tentang kami"
+    italic = "Kami datang untuk melayani yang terbaik agar anda dapat bisa mendapatkan pengalaman yang indah dan sulit untuk dilupakan di pulau Lombok ini. Bersama Cahya Lombok Travel anda bisa menikmati waktu anda setiap detiknya untuk relaksasi diri dari penatnya kehidupan di kota yang padat."
+    paragraph = "Anda akan mencintai pulau Lombok. Pulau lombok memiliki berbagai macam tempat wisata yang sangat indah. Pengalaman yang tidak akan anda bisa lupakan dari wisata pulau lombok ini. Keindahan pantai yang hanya bisa ditemukan di pulau Lombok. Traveling di pulau Lombok memberikan sensasi yang berbeda dari kehidupan anda. Terdapat banyak hal unik yang dapat anda temukan di pulau Lombok ini yang anda tidak mungkin bisa dapatkan di tempat lain."
+
+  [params.blog]
+    enable = false
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "temukan hal-hal yang menakjubkan"
+    bgImage = "img/feature-bg.jpg"
+    content = "Kami sangat menghargai pengalaman anda. Pulau Lombok memiliki banyak sekali tempat-tempat indah yang wajib anda kunjungi. Catatan kenangan anda yang positif adalah rasa penghargaan bagi kami. Abadikan setiap momennya jangan sampai setiap detiknya terlewati. Berbagai macam pantai yang indah, pasir putih yang menawan serta pohon-pohon yang masih banyak di pulau Lombok memberikan rasa kesegaran yang luar biasa setelah penatnya dari kota yang sesak dan padat. Kami menyediakan akomodasi transportasi baik perjalanan wisata, dinas, maupun pengantaran dan penjemputan dari bandara maupun mengantar ke bandara dengan harga yang spesial."
+    [params.feature.button]
+      caption = "Lihat Penawaran"
+      url = "/penawaran"
+
+  [params.call]
+    enable = true
+    bgImage = "img/call-to-action-bg.jpg"
+    title = "Ingin memesan paket ?"
+    paragraph = "Kami selalu ingin mendengar seluruh keinginan anda. Silahkan pilih penawaran yang tersedia dan langsung katakan kepada kami. Bila ingin paket yang lain juga bisa langsung hubungi kami. Kami selalu terbuka untuk anda."
+    [params.call.button]
+      url = "https://api.whatsapp.com/send?phone=6285102633994"
+      text = "hubungi kami"
+
+  [params.contact]
+    enable = true
+    title = "Temukan kantor kami"
+    subtitle = "Silahkan untuk memberikan testimoni terbaik anda setelah menggunakan pelayanan kami.."
+    [params.contact.form]
+      name = "nama"
+      email = "email"
+      subject = "subjek"
+      message = "pesan"
+      button = "kirim"
+    [params.contact.box]
+      title = "Lokasi"
+      address = "Jl. Langko 70, Dasan Agung, Kec. Selaparang, Kota Mataram, NTB."
+      email = "Email: cahyautama2002@gmail.com"
+      phone = "Phone and Whatsapp: +6285102633994"
+    [params.contact.gmaps]
+      title = "Google Maps"

@@ -1,0 +1,45 @@
+enable: true
+title: Keuntungan Anda
+subtitle: >
+  Kami akan terus melayani yang terbaik hingga anda mendapatkan pengalaman yang luar biasa menakjubkan setelah pulang dari pulau Lombok...
+content:
+
+  - icon: ion-coffee
+    name: Relaksasi
+    text: >
+      Pulau Lombok adalah tempat relaksasi yang sangat tepat bagi anda, banyak makanan dan minuman khas Lombok yang wajib anda coba.
+
+  - icon: ion-compass
+    name: Destinasi
+    text: >
+      Lombok memiliki banyak sekali destinasi keren yang bisa anda kunjungi baik sendiri maupun bersama keluarga.
+
+  - icon: ion-image
+    name: Bersatu Dengan Alam
+    text: >
+      Pulau Lombok memiliki banyak tempat yang sangat asri. Oksigen yang sangat anda butuhkan setelah merasakan sesaknya udara perkotaan.
+
+  - icon: ion-camera
+    name: Abadikan momennya
+    text: >
+      Temui momen-momen keren dan abadikan momennya lalu bagikan kepada teman-teman anda. 
+
+  # - icon: ion-headphone
+  #   name: Logo Design
+  #   text: >
+  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  # - icon: ion-leaf
+  #   name: Development
+  #   text: >
+  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  # - icon: ion-planet
+  #   name: Brand Identity
+  #   text: >
+  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  # - icon: ion-earth
+  #   name: Brand Identity
+  #   text: >
+  #     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
