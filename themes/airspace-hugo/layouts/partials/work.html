@@ -18,13 +18,11 @@
                   {{ end }}
                 </ul>
               </div>
-              {{if eq .Site.Data.work.portfolio 0 }}
-              <div class="ph-item" style="display: flex; flex-wrap: wrap;">
+              <div id="placeholder-loading" class="ph-item" style="display: flex; flex-wrap: wrap;">
                   <div class="ph-picture"></div>
                   <div class="ph-picture"></div>
                   <div class="ph-picture"></div>
               </div>
-              {{end}}
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
                   {{ range .Site.Data.work.portfolio }}
@@ -43,12 +41,22 @@
                   {{ end }}
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
     </div>
 </section>
+<script>
+    $('#placeholder-loading')
+      .hide()  // Hide it initially
+      .ajaxStart(function() {
+          $(this).show();
+      })
+      .ajaxStop(function() {
+          $(this).hide();
+      })
+  ;
+</script>
 
 <!-- Clients Logo Section Start -->
 <!-- <section id="clients-logo-section">

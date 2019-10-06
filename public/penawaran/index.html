@@ -137,7 +137,11 @@
                   
                 </ul>
               </div>
-              
+              <div id="placeholder-loading" class="ph-item" style="display: flex; flex-wrap: wrap;">
+                  <div class="ph-picture"></div>
+                  <div class="ph-picture"></div>
+                  <div class="ph-picture"></div>
+              </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
                   
@@ -269,12 +273,22 @@
                   
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
     </div>
 </section>
+<script>
+    $('#placeholder-loading')
+      .hide()  
+      .ajaxStart(function() {
+          $(this).show();
+      })
+      .ajaxStop(function() {
+          $(this).hide();
+      })
+  ;
+</script>
 
 
 
