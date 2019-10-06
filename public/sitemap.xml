@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/blog/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/categories/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/ipsum/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/categories/lorem/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/blog/migrate-from-jekyll/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/hugo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/blog/hugo-is-for-lovers/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/categories/pseudo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/blog/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/golang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/blog/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/penawaran/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/tags/programming/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cahyalomboktravel.netlify.com/service/</loc>
+  </url>
+  
+</urlset>
