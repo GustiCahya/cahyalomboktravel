@@ -1,7 +1,7 @@
 +++
-title = "Blog"
+title = "CahyaLombokTravel | Blog"
 id = "blog"
-description = "This is meta description for blog page"
+description = "Cahya Lombok Travel solusi travelling di pulau Lombok" 
 bgImage = "img/slider-bg.webp"
 bgImageAlt = "img/slider-bg.jpg"
 +++
