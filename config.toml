@@ -9,18 +9,18 @@ theme = "airspace-hugo"
   
   [menu]
 
-    [[menu.header]]
-      weight = 2
-      name = "Penawaran"
-      url = "penawaran"
+    # [[menu.header]]
+    #   weight = 2
+    #   name = "Penawaran"
+    #   url = "penawaran"
     # [[menu.header]]
     #   weight = 3
     #   name = "Blog"
     #   url = "blog"
-    [[menu.header]]
-      weight = 4
-      name = "Service"
-      url = "service"
+    # [[menu.header]]
+    #   weight = 4
+    #   name = "Service"
+    #   url = "service"
     [[menu.header]]
       weight = 5
       name = "Contact"
@@ -53,7 +53,7 @@ theme = "airspace-hugo"
     subtitle = "Berwisata di pulau Lombok dan nikmati pengalaman baru.<br/>Menikmati indahnya pulau Lombok dan abadikan momennya.<br>"
     bgImage = "img/slider-bg.jpg"
     btnText = "Lihat penawaran kami"
-    url = "/penawaran"
+    url = "#portfolio-work"
 
   [params.wrapper]
     enable = true
@@ -74,7 +74,7 @@ theme = "airspace-hugo"
     content = "Kami sangat menghargai pengalaman anda. Pulau Lombok memiliki banyak sekali tempat-tempat indah yang wajib anda kunjungi. Catatan kenangan anda yang positif adalah rasa penghargaan bagi kami. Abadikan setiap momennya jangan sampai setiap detiknya terlewati. Berbagai macam pantai yang indah, pasir putih yang menawan serta pohon-pohon yang masih banyak di pulau Lombok memberikan rasa kesegaran yang luar biasa setelah penatnya dari kota yang sesak dan padat. Kami menyediakan akomodasi transportasi baik perjalanan wisata, dinas, maupun pengantaran dan penjemputan dari bandara maupun mengantar ke bandara dengan harga yang spesial."
     [params.feature.button]
       caption = "Lihat Penawaran"
-      url = "/penawaran"
+      url = "#portfolio-work"
 
   [params.call]
     enable = true

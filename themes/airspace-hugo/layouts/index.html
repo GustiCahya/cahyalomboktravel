@@ -6,10 +6,68 @@
 
 </head>
 <body>
-
 	{{ partial "header.html" . }}
 
 	{{ partial "slider.html" . }}
+
+	<section id="portfolio-work">
+		<div class="container">
+			<h1 class="text-center" style="margin-bottom: 30px;">DAFTAR PENAWARAN</h1>
+			<div class="row">
+			  <div class="col-md-12">
+				<div class="block">
+				  <div class="portfolio-menu">
+					<ul>
+					  {{ $categories := slice }}
+					  {{ range .Site.Data.work.portfolio }}
+						{{ $categories = $categories | append .category }}
+					  {{ end }}
+						<li class="filter" data-filter="all">SeluruhPaket</li>
+					  {{ range ( $categories | uniq ) }}
+						<li class="filter" data-filter=".{{ . }}">{{ . }}</li>
+					  {{ end }}
+					</ul>
+				  </div>
+				  <div id="placeholder-loading" class="ph-item" style="display: flex; flex-wrap: wrap;">
+					  <div class="ph-picture"></div>
+					  <div class="ph-picture"></div>
+					  <div class="ph-picture"></div>
+				  </div>
+				  <div class="portfolio-contant">
+					<ul id="portfolio-contant-active">
+					  {{ range .Site.Data.work.portfolio }}
+						<li class="mix {{ .category }}">
+						  <a class="venobox" href="{{ $.Site.BaseURL }}{{ .image }}">
+							<img class="img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" />
+							<div class="overly">
+							  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);">
+								<i class="fa fa-search fz-20"></i>
+								<h2>{{ .name }}</h2>
+								<p>{{ .description }}</p>
+							  </div>
+							</div>
+						  </a>
+					  </li>
+					  {{ end }}
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</section>
+	<script>
+		var $loading = $('#placeholder-loading').hide();
+		$(document)
+		  .ajaxStart(function () {
+			$loading.show();
+		  })
+		  .ajaxStop(function () {
+			$loading.hide();
+		  });
+	</script>
+
+	{{ partial "call-to-action.html" . }}
 
 	{{ partial "wrapper.html" . }}
 
@@ -17,7 +75,32 @@
 
 	{{ partial "service-home.html" . }}
 
-	{{ partial "call-to-action.html" . }}
+	<!-- Service Start -->
+	<section id="service">
+		<div class="container">
+	
+		<!-- Intro -->
+		<div class="row">
+			<div class="section-title">
+			<h2 style="margin-bottom: 30px;">{{ .Site.Data.service.title }}</h2>
+			<p>{{ .Site.Data.service.subtitle }}</p>
+			</div>
+		</div>
+	
+		<!-- Content -->
+		<div class="row">
+			{{ range .Site.Data.service.content }}
+			<div class="col-sm-6 col-md-3">
+			<div class="service-item">
+				<i class="{{ .icon }}"></i>
+				<h4>{{ .name }}</h4>
+				<p>{{ .text }}</p>
+			</div>
+			</div>
+			{{ end }}
+		</div>
+		</div>
+	</section>
 
 	{{ partial "testimonial.html" . }}
 

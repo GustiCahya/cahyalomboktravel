@@ -5,47 +5,47 @@ subtitle: Bila ingin paket yang lain bisa langsung hubungi kami.
 # google support the latest technology for image optimization. you can also optimize your image from https://www.ps2pdf.com/convert-jpg-to-webp here.
 portfolio:
   - category: AirportTransfer
-    image: "/img/portfolio/post1.jpg"
+    image: "/img/portfolio/post1.webp"
     name: Airtport to Mataram
     description: >
       Rp.150.000,-
   - category: AirportTransfer
-    image: "/img/portfolio/post2.jpg"
+    image: "/img/portfolio/post2.webp"
     name: Airport to Senggigi
     description: >
       Rp.175.000,-
   - category: AirportTransfer
-    image: "/img/portfolio/post3.jpg"
+    image: "/img/portfolio/post3.webp"
     name: Airport to Bangsal
     description: >
       Rp.300.000,-
   - category: AirportTransfer
-    image: "/img/portfolio/post4.jpg"
+    image: "/img/portfolio/post4.webp"
     name: Airport to Gili Trawangan/Meno/Air
     description: >
       Rp.650.000,-
   - category: Snorkeling
-    image: "/img/portfolio/post5.jpg"
+    image: "/img/portfolio/post5.webp"
     name: Paket Snorkling
     description: >
       Gili Trawangan/Meno/Air Rp.1.200.000,- max 8 orang
   - category: PaketPerjalanan
-    image: "/img/portfolio/post6.jpg"
+    image: "/img/portfolio/post6.webp"
     name: Paket Honeymoon
     description: >
       3 Days 2 Nights start from Rp4.600.000,-
   - category: PaketPerjalanan
-    image: "/img/portfolio/post7.jpg"
+    image: "/img/portfolio/post7.webp"
     name: Group package 3D2N
     description: >
       Start from Rp. 1.400.000/pax
   - category: PaketPerjalanan
-    image: "/img/portfolio/post8.jpg"
+    image: "/img/portfolio/post8.webp"
     name: Family package 3D2N
     description: >
       Start from Rp. 1.700.000/pax
   - category: PaketPerjalanan
-    image: "/img/portfolio/post9.jpg"
+    image: "/img/portfolio/post9.webp"
     name: Outbound/Team building package 
     description: >
       Start from Rp. 650.000/pax
