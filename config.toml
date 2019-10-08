@@ -1,5 +1,5 @@
 title = "CahyaLombokTravel | Perjalanan wisata di pulau Lombok"
-baseURL = "https://cahyalomboktravel.netlify.com/"
+baseURL = "https://cahyalomboktravel.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
