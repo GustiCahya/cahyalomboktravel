@@ -38,7 +38,7 @@
 					  {{ range .Site.Data.work.portfolio }}
 						<li class="mix {{ .category }}">
 						  <a class="venobox" href="{{ $.Site.BaseURL }}{{ .image }}">
-							<img class="img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" />
+							<img loading="lazy" class="img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" />
 							<div class="overly">
 							  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);">
 								<i class="fa fa-search fz-20"></i>
