@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CahyaLombokTravel | Perjalanan wisata di pulau Lombok</title>
-    <link>https://cahyalomboktravel.netlify.com/categories/</link>
+    <link>https://cahyalomboktravel.com/categories/</link>
     <description>Recent content in Categories on CahyaLombokTravel | Perjalanan wisata di pulau Lombok</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="https://cahyalomboktravel.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cahyalomboktravel.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>lorem</title>
-      <link>https://cahyalomboktravel.netlify.com/categories/lorem/</link>
+      <link>https://cahyalomboktravel.com/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://cahyalomboktravel.netlify.com/categories/lorem/</guid>
+      <guid>https://cahyalomboktravel.com/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pseudo</title>
-      <link>https://cahyalomboktravel.netlify.com/categories/pseudo/</link>
+      <link>https://cahyalomboktravel.com/categories/pseudo/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://cahyalomboktravel.netlify.com/categories/pseudo/</guid>
+      <guid>https://cahyalomboktravel.com/categories/pseudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>starting</title>
-      <link>https://cahyalomboktravel.netlify.com/categories/starting/</link>
+      <link>https://cahyalomboktravel.com/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://cahyalomboktravel.netlify.com/categories/starting/</guid>
+      <guid>https://cahyalomboktravel.com/categories/starting/</guid>
       <description></description>
     </item>
     
